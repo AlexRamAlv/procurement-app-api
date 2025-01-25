@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/mnt/c/Users/Usuario/Desktop/procurement-app-api/app/assets/carshop.svg"
+        type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Confirmed</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333333;
+            text-align: center;
+        }
+
+        p {
+            color: #555555;
+            line-height: 1.5;
+        }
+
+        .success-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 200px;
+            height: 60%;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #777777;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Email Confirmed!</h1>
+        <img class="success-image"
+            src="https://cdn-icons-png.freepik.com/512/10678/10678113.png?ga=GA1.1.1285053925.1736035264"
+            alt="Email Confirmation" width="200" height="150">
+        <p>Congratulations! Your email address <i>{{email}}</i> has been successfully confirmed.</p>
+        <p style="color: green; font-weight: 600; text-align: center;">You can now start using all the features of our
+            platform.</p>
+        <div class="footer">
+            Go and log into the web application.
+        </div>
+    </div>
+</body>
+
+</html>

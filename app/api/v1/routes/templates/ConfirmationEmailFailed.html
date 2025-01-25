@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/mnt/c/Users/Usuario/Desktop/procurement-app-api/app/assets/carshop.svg"
+        type="image/x-icon">
+    <title>Email Confirmation Failed</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333333;
+            text-align: center;
+        }
+
+        p {
+            color: #555555;
+            line-height: 1.5;
+        }
+
+        .failed-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 200px;
+            height: 60%;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #777777;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Email was not Confirmed!</h1>
+        <img class="failed-image"
+            src="https://cdn-icons-png.freepik.com/512/16959/16959886.png?ga=GA1.1.1285053925.1736035264"
+            alt="Email Confirmation Failed" width="200" height="150">
+        <p>Unfortually, the link you are using to confirm your email is no longer available or is incorrect.</p>
+        <p style="color: red; font-weight: 600; text-align: center;">{{msg}}.</p>
+        <div class="footer">
+            This email was sent automatically. Please do not reply.
+        </div>
+    </div>
+</body>
+
+</html>
